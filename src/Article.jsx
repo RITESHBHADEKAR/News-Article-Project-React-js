@@ -19,7 +19,7 @@ const Article = () => {
             <h1 className='news-title'>
               Breaking News: Major Earthquake Strikes Pacific Coast
             </h1>
-            <p className='news-text'>{text ? texts.slice(0, 250) : texts}</p>
+            <p className='news-text'>{text ? texts.slice(0, 150) : texts}</p>
             <button
               className='btn'
               onClick={() => {
