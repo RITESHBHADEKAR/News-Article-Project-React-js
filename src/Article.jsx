@@ -15,9 +15,8 @@ const Article = () => {
             alt=''
           />
           <div className='news-info'>
-            <p className='news-Category'>Health</p>
             <h1 className='news-title'>
-              Breaking News: Major Earthquake Strikes Pacific Coast
+              Breaking News
             </h1>
             <p className='news-text'>{text ? texts.slice(0, 150) : texts}</p>
             <button

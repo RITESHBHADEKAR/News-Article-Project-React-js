@@ -7,7 +7,7 @@ const News = () => {
   return (
     <div className='section-center'>
       <h3> Recent News</h3>
-      <div className='news-container section-center'>
+      <div className='news-container'>
         {news.map((NewsItem) => {
           return <SingleNews key={NewsItem.id} {...NewsItem} />
           ;

@@ -20,7 +20,7 @@ export const newsList = [
     Location: 'UK',
     Category: 'reporter',
     NewsText:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man lorem20 asjasb sjdsdsd keien jsd.',
+      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man lorem20 asjasb sjdsdsd keien jsd. kombucha gentrify fanny pack raclette pok pok mustache.',
   },
   {
     id: 3,

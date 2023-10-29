@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav class='navbar section-center'>
+    <nav class='navbar navbar-light bg-light justify-content-between'>
       <a
-        href='#'
+        class='navbar-brand'
         style={{
           fontWeight: 800,
           fontFamily: 'Cinzel',
@@ -14,33 +14,17 @@ const Navbar = () => {
       >
         The Times Of India
       </a>
-      <button class='navbar-toggler' type='button'>
-        <i class='fa fa-bars'></i>
-      </button>
-      <div class='nav-items' id='navbarNav'>
-        <ul class='navbar-nav'>
-          <li class='nav-item active'>
-            <a class='nav-link ' href='#'>
-              Home
-            </a>
-          </li>
-          <li class='nav-item '>
-            <a class='nav-link' href='#'>
-              Go Live
-            </a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#'>
-              About Us
-            </a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#'>
-              Contact Us
-            </a>
-          </li>
-        </ul>
-      </div>
+      <form class='form-inline'>
+        <input
+          class='form-control mr-sm-2'
+          type='search'
+          placeholder='Search'
+          aria-label='Search'
+        />
+        <button class='btn btn-outline-success my-2 my-sm-0' type='submit'>
+          Search
+        </button>
+      </form>
     </nav>
   );
 };

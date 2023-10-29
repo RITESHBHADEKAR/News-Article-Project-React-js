@@ -15,7 +15,7 @@ export const SingleNews = ({
 
   return (
     <>
-      <article className='single-news section' key={id}>
+      <article className='single-news  ' key={id}>
         <img src={image} alt={NewsTitle} className='img' />
         <h1 className='single-news-title'>{NewsTitle}</h1>
         <p className='news-text'>
